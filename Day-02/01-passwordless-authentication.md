@@ -2,6 +2,11 @@
 
 ## EC2 Instances
 
+## Create a keygen pub and private simply give enter to created in default location
+ssh-key-gen 
+## Give permission to key,pem file 600
+chmod 600 <key.pem file>
+
 ### Using Public Key
 
 ```
